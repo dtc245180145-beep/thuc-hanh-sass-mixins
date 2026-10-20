@@ -1,0 +1,16 @@
+
+@mixin button-style($bg-color) {
+  background: $bg-color;
+  color: $white-color;
+  padding: $padding-standard;
+  border-radius: $button-radius;
+  border: none;
+  cursor: pointer;
+}
+
+@mixin box-style {
+  background: $white-color;
+  padding: $card-padding;
+  border-radius: $card-radius;
+  box-shadow: $box-shadow-default;
+}
