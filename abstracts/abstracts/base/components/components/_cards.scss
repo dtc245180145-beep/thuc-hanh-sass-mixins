@@ -1,0 +1,12 @@
+
+.card {
+  @include box-style;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+}
